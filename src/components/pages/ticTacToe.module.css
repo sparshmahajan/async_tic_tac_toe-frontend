@@ -1,0 +1,41 @@
+.ticTacToe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.heading, .subHeading{
+    margin : 0;
+}
+
+.heading{
+    font-size: 1.5rem;
+}
+
+.subHeading{
+    font-weight: 600;
+}
+.yourPiece{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #2C8DFF;
+    margin: 0px;
+    margin-bottom: 10px;
+}

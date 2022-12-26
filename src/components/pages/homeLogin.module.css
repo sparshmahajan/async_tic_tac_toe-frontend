@@ -1,0 +1,29 @@
+.homeLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.title{
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
